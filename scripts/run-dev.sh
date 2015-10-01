@@ -6,5 +6,6 @@ npm install
 rm -rf meteor/react-build-generated
 
 cd meteor
-export WEBPACK_CONFIG=$ROOT_FOLDER/webpack/development.config.js
+export WEBPACK_DEV_SERVER=1
+node ../webpack/dev-server &
 meteor --settings $ROOT_FOLDER/settings/development.json

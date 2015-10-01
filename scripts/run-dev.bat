@@ -4,5 +4,6 @@ CMD /C npm install
 rmdir /s/q meteor\react-build-generated
 
 cd meteor
-SET WEBPACK_CONFIG=%ROOT_FOLDER%\webpack\development.config.js
-meteor --settings "%ROOT_FOLDER%\settings\development.json"
+SET WEBPACK_DEV_SERVER=1
+start node ..\webpack\dev-server
+start meteor --settings "%ROOT_FOLDER%\settings\development.json"

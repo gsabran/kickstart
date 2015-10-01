@@ -1,7 +1,5 @@
 {
   "public": {
-    "webpack": {
-      "script": "/assets/main.js"
-    }
+    "webpackDevServer": true
   }
 }

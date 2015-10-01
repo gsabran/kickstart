@@ -24,13 +24,13 @@ module.exports = {
   devtool: 'cheap-module-eval-source-map',
   context: path.join(__dirname, '..'),
   entry: [
-    'webpack-hot-middleware/client',
+    'webpack-hot-middleware/client?path=http://localhost:3500/__webpack_hmr',
     './react'
   ],
   output: {
     path: path.join(__dirname, '..', 'meteor', 'react-build-generated', 'client'),
     filename: 'main.js',
-    publicPath: '/assets/'
+    publicPath: 'http://localhost:3500/assets/'
   },
   externals: {
     'react': 'React',
