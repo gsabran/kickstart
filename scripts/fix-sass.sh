@@ -20,4 +20,5 @@ METEOR_NODE_VERSION=v0.10.40
 
 ROOT_FOLDER=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/..
 cd $ROOT_FOLDER/node_modules/node-sass
-node $ROOT_FOLDER/node_modules/node-sass/scripts/build.js --arch=$SASS_BINARY_NAME --target=$NODE_VERSION --force
+export SASS_BINARY_NAME=$SASS_BINARY_NAME
+node $ROOT_FOLDER/node_modules/node-sass/scripts/build.js --target=$METEOR_NODE_VERSION --force
