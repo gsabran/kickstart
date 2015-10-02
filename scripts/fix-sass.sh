@@ -14,7 +14,9 @@
 # 3. Run the script and the error should disappear
 
 SASS_BINARY_NAME=linux-x64-11
-NODE_VERSION=v0.10.40
+
+# This should be the Meteor Node.js version (not local version)
+METEOR_NODE_VERSION=v0.10.40
 
 ROOT_FOLDER=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/..
 cd $ROOT_FOLDER/node_modules/node-sass
