@@ -14,7 +14,7 @@ REM 3. Run the script and the error should disappear
 SET SASS_BINARY_NAME=linux-x64-11
 
 REM This should be the Meteor Node.js version (not local version)
-METEOR_NODE_VERSION=v0.10.40
+SET METEOR_NODE_VERSION=v0.10.40
 
 SET ROOT_FOLDER=%~dp0..
 cd "%ROOT_FOLDER%\node_modules\node-sass"
