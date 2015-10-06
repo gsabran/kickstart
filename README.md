@@ -4,7 +4,7 @@ Kickstart your project with the perfect Web App setup: Meteor + Webpack + React
 
 You can see a demo at [http://ReactKickstarter.meteor.com](http://ReactKickstarter.meteor.com/).
 
-Nothing to setup, nothing to worry about. Replace the TodoApp (`react/todo`) by your own App, update the routes in `react/index.js` and you're good to go!
+Nothing to setup, nothing to worry about. Replace the TodoApp (`react/todo`) by your own App, update the routes in `react/TodoApp/routes.js` and you're good to go!
 
 If you are new to React, you should learn the basics first. You can watch [those videos about React fundamentals](https://egghead.io/series/react-fundamentals) (little bit old but cover the basics very well).
 
@@ -31,6 +31,12 @@ COMING SOON - A serie of videos is in process of being made to learn from scratc
 - You can require CSS inside `componentWillMount` of your React components (read the section to learn more)
 - You can require images so they get bundled automatically (`<img src={require('./img/check.png')} alt="" />`)
 - You can use Blaze templates with [BlazeToReact](https://atmospherejs.com/thereactivestack/blazetoreact)
+- You can use code splitting and only load the App the client is browsing (handy for excluding the admin from the main Javascript bundle)
+
+# Code splitting
+The AdminApp example is an example of code splitting. The /admin section will not be included in the main bundle and will not be loaded by the client. You don't want your regular users to load the big admin behind they never use.
+
+The script will be automatically loaded by the client once you browse the /admin section.
 
 # Testing
  - lint: `npm run lint`
