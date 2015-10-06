@@ -2,7 +2,7 @@
 body {
   font-family: sans-serif;
   background-color: #315481;
-  background-image: url(img/scratched-texture.jpg);
+  background-image: url(../img/scratched-texture.jpg);
   background-attachment: fixed;
 
   position: absolute;

@@ -7,7 +7,7 @@ import TodoHeader from './TodoHeader';
 import TodoList from './TodoList';
 
 @ReactMixin.decorate(ReactMeteorData)
-export default class TodoApp extends Component {
+export default class Main extends Component {
 
   state = {
     hideCompleted: false
@@ -37,7 +37,7 @@ export default class TodoApp extends Component {
   }
 
   componentWillMount() {
-    require('./TodoApp.css');
+    require('../css/TodoApp.css');
   }
 
   render() {

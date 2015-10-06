@@ -1,5 +1,8 @@
 node_modules
 *.log
+
+.idea
+
 meteor/react-build-generated
 meteor/public/assets/*.*
-.idea
+meteor/private/webpack.stats.json

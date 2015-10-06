@@ -24,8 +24,18 @@ module.exports = [
       new webpack.DefinePlugin({
         'process.env': {
           'NODE_ENV': JSON.stringify('production')
-        }
-      })
+        },
+        'Meteor.isClient': JSON.stringify(true),
+        'Meteor.isServer': JSON.stringify(false)
+      }),
+      new webpack.optimize.CommonsChunkPlugin('common', 'common.main.js'),
+      function() {
+        this.plugin('done', function(stats) {
+          require('fs').writeFileSync(
+            path.join(__dirname, '..', 'meteor', 'private', 'webpack.stats.json'),
+            JSON.stringify(stats.toJson()));
+        });
+      }
     ],
     resolve: {
       extensions: ['', '.jsx', '.js', '.json', '.css', '.scss']
@@ -59,7 +69,9 @@ module.exports = [
       new webpack.DefinePlugin({
         'process.env': {
           'NODE_ENV': JSON.stringify('production')
-        }
+        },
+        'Meteor.isClient': JSON.stringify(false),
+        'Meteor.isServer': JSON.stringify(true)
       })
     ],
     resolve: {

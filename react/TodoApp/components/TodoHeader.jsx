@@ -37,7 +37,7 @@ export default class TodoHeader extends Component {
     return (
       <header>
         <h1>
-          <img src={require('./img/check.png')} alt="" />
+          <img src={require('../img/check.png')} alt="" />
           Todo List ({this.props.incompleteCount})
         </h1>
 
