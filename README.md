@@ -34,7 +34,7 @@ COMING SOON - A serie of videos is in process of being made to learn from scratc
 - You can use code splitting and only load the App the client is browsing (handy for excluding the admin from the main Javascript bundle)
 
 # Code splitting
-The AdminApp example is an example of code splitting. The /admin section will not be included in the main bundle and will not be loaded by the client. You don't want your regular users to load the big admin behind they never use.
+AdminApp is an example of code splitting. The /admin section will not be included in the main bundle and will not be loaded by the client. You don't want your regular users to load the big admin behind they never use.
 
 The script will be automatically loaded by the client once you browse the /admin section.
 
