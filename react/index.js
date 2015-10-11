@@ -1,6 +1,4 @@
 const rootRoute = {
-  path: '/',
-  component: 'div',
   childRoutes: [
     require('./TodoApp'),
     require('./AdminApp')
