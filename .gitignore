@@ -1,8 +1,0 @@
-node_modules
-*.log
-.DS_Store
-.idea
-
-meteor/react-build-generated
-meteor/public/assets/*.*
-meteor/private/webpack.stats.json
