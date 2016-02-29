@@ -1,9 +1,9 @@
-# kickstart by The Reactive Stack
+# kickstart by [TheReactiveStack.com](https://thereactivestack.com)
 
-Kickstart projects are a way to get yourself started fast with a productive setup by cloning the repository.
+Kickstart a Web App project with a productive setup by cloning the repository.
 
-They all share a very productive stack: Meteor, React.js and Webpack.
+- [kickstart-meteor-react](https://github.com/thereactivestack/kickstart-meteor-react): Kickstart a barebone project with Meteor and React fast!
+- [kickstart-meteor-react-router](https://github.com/thereactivestack/kickstart-meteor-react-router): Kickstart a project with Meteor, React and react-router fast!
+- [kickstart-meteor-react-flowrouter](https://github.com/thereactivestack/kickstart-meteor-react-flowrouter): Kickstart a project with Meteor, React and FlowRouter fast!
 
-- [kickstart-simple](https://github.com/thereactivestack/kickstart-simple): A simple kickstart for small projects or start learning
-- [kickstart-hugeapp](https://github.com/thereactivestack/kickstart-hugeapp): A more sophisticated kickstart that include code splitting. If you are planning on having a big application (or a big admin), you should definitively use this one.
-- [kickstart-flowrouter](https://github.com/thereactivestack/kickstart-flowrouter): A kickstart for FlowRouter projects.
+## Get tutorials and more examples at [TheReactiveStack.com](https://thereactivestack.com)
