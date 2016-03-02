@@ -6,4 +6,4 @@ Kickstart a Web App project with a productive setup by cloning the repository.
 - [kickstart-meteor-react-router](https://github.com/thereactivestack/kickstart-meteor-react-router): Kickstart a project with Meteor, React and react-router fast!
 - [kickstart-meteor-react-flowrouter](https://github.com/thereactivestack/kickstart-meteor-react-flowrouter): Kickstart a project with Meteor, React and FlowRouter fast!
 
-## Get tutorials and more examples at [TheReactiveStack.com](https://thereactivestack.com)
+## [Learn how to be productive with Meteor and Webpack in 7 days on TheReactiveStack.com](https://thereactivestack.com)
