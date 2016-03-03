@@ -9,3 +9,7 @@ Kickstart a Web App project with a productive setup by cloning the repository.
 ## [Learn how to be productive with Meteor and Webpack in 7 days on TheReactiveStack.com](https://thereactivestack.com)
 
 You can also learn more by reading the [webpack:webpack readme](https://atmospherejs.com/webpack/webpack).
+
+# Kickstart by the community
+
+- [kickstart-mantrajs-webpack](https://github.com/mantrajs/kickstart-mantrajs-webpack): Kickstart a project with MantraJs and Webpack fast!
