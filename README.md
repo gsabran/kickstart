@@ -13,4 +13,4 @@ You can also learn more by reading the [webpack:webpack readme](https://atmosphe
 # Kickstart by the community
 
 - [kickstart-mantrajs-webpack](https://github.com/mantrajs/kickstart-mantrajs-webpack): Kickstart a project with MantraJs and Webpack fast!
-- [kickstart-meteor-react-flowrouter-ssr-redux-codeSpliting](https://github.com/gsabran/kickstart-meteor-react-flowrouter): Kickstart a project with Meteor, React, FlowRouter, Server Side Rendering and Redux fast!
+- [kickstart-meteor-react-flowrouter-ssr-redux-codeSpliting](https://github.com/gsabran/kickstart-meteor-react-flowrouter-SSR-codeSplit): Kickstart a project with Meteor, React, FlowRouter, Server Side Rendering and Redux fast!
